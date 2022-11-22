@@ -3,42 +3,8 @@ owner: flashskynews # Your GitHub organization or username, where this repositor
 repo: statuspage # The name of this repository
 
 sites:
-  - name: Tyler
-    check: "tcp-ping"
-    url: tyler.kay0.net
-    port: $pingport
-  - name: Papatastisch
-    check: "tcp-ping"
-    url: papatastisch.kay0.net
-    port: $pingport
-  - name: Cat Girl
-    check: "tcp-ping"
-    url: $catgirlsrv
-    port: $pingport
-  - name: Posty
-    check: "tcp-ping"
-    url: posty.kay0.net
-    port: $pingport
-  - name: Rocky
-    check: "tcp-ping"
-    url: rocky.kay0.net
-    port: $pingport
-  - name: Ariana
-    check: "tcp-ping"
-    url: ariana.kay0.net
-    port: $pingport
-  - name: Scott
-    check: "tcp-ping"
-    url: scott.kay0.net
-    port: $pingport
-  - name: MBeezy
-    check: "tcp-ping"
-    url: mbeezy.kay0.net
-    port: $pingport
-  - name: Freddy
-    check: "tcp-ping"
-    url: freddy.kay0.net
-    port: $pingport
+  - name: watchOcular.com
+    url: https://watchOcular.com
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
