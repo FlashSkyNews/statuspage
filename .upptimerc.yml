@@ -49,12 +49,12 @@ status-website:
   name: kay0.net
   introTitle: "Servers & Programs"
   introMessage: Status page for every important server and service I provide or maintain.
+  favicon: https://i.kay0.io/favicon/android-chrome-512x512.png
   navbar:
     - title: Status
       href: /
     - title: GitHub (Source)
       href: https://github.com/upptime/upptime
-   favicon: https://i.kay0.io/favicon/android-chrome-512x512.png
   
   commitMessages:
     commitAuthorName: "Uptime Bot"
