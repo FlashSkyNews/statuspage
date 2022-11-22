@@ -3,25 +3,62 @@ owner: flashskynews # Your GitHub organization or username, where this repositor
 repo: statuspage # The name of this repository
 
 sites:
-  - name: WatchOcular Home
-    url: https://watchocular.com
-  - name: File Sharing #1
-    url: https://i.kay0.io
+  - name: Tyler
+    check: "tcp-ping"
+    url: tyler.kay0.net
+    port: $pingport
+  - name: Papatastisch
+    check: "tcp-ping"
+    url: papatastisch.kay0.net
+    port: $pingport
+  - name: Cat Girl
+    check: "tcp-ping"
+    url: $catgirlsrv
+    port: $pingport
+  - name: Posty
+    check: "tcp-ping"
+    url: posty.kay0.net
+    port: $pingport
+  - name: Rocky
+    check: "tcp-ping"
+    url: rocky.kay0.net
+    port: $pingport
+  - name: Ariana
+    check: "tcp-ping"
+    url: ariana.kay0.net
+    port: $pingport
+  - name: Scott
+    check: "tcp-ping"
+    url: scott.kay0.net
+    port: $pingport
+  - name: MBeezy
+    check: "tcp-ping"
+    url: mbeezy.kay0.net
+    port: $pingport
+  - name: Freddy
+    check: "tcp-ping"
+    url: freddy.kay0.net
+    port: $pingport
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.kay0.net
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Status Page
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://i.kay0.io/favicon/kay0-transparent.png
+  name: kay0.net
+  introTitle: "Servers & Programs"
+  introMessage: Status page for every important server and service I provide or maintain.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: GitHub (Source)
+      href: https://github.com/upptime/upptime
+   favicon: https://i.kay0.io/favicon/android-chrome-512x512.png
+  
+  commitMessages:
+    commitAuthorName: "Uptime Bot"
+    commitAuthorEmail: "uptimebot@kay0.io"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
